@@ -1,5 +1,8 @@
 # cl-win32-errors
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Quicklisp](https://img.shields.io/badge/Quicklisp-available-brightgreen.svg)](http://quicklisp.org/)
+
 A Common Lisp library for translating cryptic Windows API error codes into human-readable information. When working with CFFI, Windows functions often return numeric error codes. This library provides a simple interface to convert these codes into their symbolic names, hexadecimal values, and descriptive strings, complete with a condition system for error handling.
 
 This project is the logical companion to [cl-win32-types](https://github.com/ItsMeForLua/cl-win32-types).
