@@ -2,9 +2,9 @@
 
 (defsystem #:cl-win32-errors
   :description "A library for translating Windows API error codes."
-  :author "Your Name <you@example.com>"
+  :author "Andrew D. France <andrewforlua@gmail.com>"
   :license "MIT"
-  :version "1.3.0"
+  :version "1.0.0"
   :depends-on ()
   :components ((:file "package")
                (:file "cl-win32-errors" :depends-on ("package"))
